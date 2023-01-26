@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg,#211a27,#281d2a 85.61%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height:50px;
+    width: 50px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cabecalho-menu-item:hover{
+    background: rgb(180, 51, 94);
+}
+
+.conteudo{
+    border-top: 0.4px solid rgb(93, 50, 93);
+    margin-bottom: 20px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.772);
+    margin-right: 30px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(180, 51, 94);
+    margin-left: 60px;
+}
+
+.conteudo-principal-botao{
+    background-color: rgb(40, 16, 40);
+    border: 1px;
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px black ;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin-left: 270px;
+    margin-top: 100px;
+}
+
+.conteudo-principal-botao:hover{
+    background-color: rgb(180, 51, 94);
+    color: white;
+}
+
+h3{
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    color: white;
+    padding-left: 110px;
+    padding-top: 70px;
+    border-top: 0.1px dotted rgb(93, 50, 93);;
+}
+
+.conteudo-principal-imagem{
+    height: 800px;
+}
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    .cabecalho-imagem{
+        height: 0px;
+        width: 0px;
+     } 
+    .conteudo-principal-imagem{
+        height: 0px;
+    }
+    .conteudo-principal-botao{
+    background-color: rgb(40, 16, 40);
+    border: 1px;
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px black ;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin-left: 150px;
+    margin-top: 70px;
+    }
+
+    h3{
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+        color: white;
+        padding-left: 60px;
+        padding-top: 60px;
+        border-top: 0.1px dotted rgb(93, 50, 93);
+    }
+    .conteudo-principal-escrito-subtitulo{
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: rgb(180, 51, 94);
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .conteudo-principal-escrito-titulo{
+        font-family: 'Righteous', cursive;
+        font-weight: 40;
+        font-size: 60px;
+        color: rgba(255, 255, 255, 0.772);
+        margin-right: 30px;
+        margin-top: 40px;
+    }
+}
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 900px){
+    .conteudo-principal-botao{
+        background-color: rgb(40, 16, 40);
+        border: 1px;
+        width: 180px;
+        height: 60px;
+        border-radius: 10px;
+        box-shadow: 4px 5px 4px black ;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: white;
+        margin-left: 270px;
+        margin-top: 20px;
+    }
+    .conteudo-principal-escrito-subtitulo{
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: rgb(180, 51, 94);
+        margin-left: 30px;
+    }
+    h3{
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+        color: white;
+        padding-left: 110px;
+        padding-top: 40px;
+        border-top: 0.1px dotted rgb(93, 50, 93);;
+    }
+    .conteudo-principal-escrito-titulo{
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 80px;
+        color: rgba(255, 255, 255, 0.772);
+        margin-right: 1rem;
+        margin-top: -0rem;
+    }
+    .conteudo-principal-imagem{
+        height: 600px;
+    }
+}
