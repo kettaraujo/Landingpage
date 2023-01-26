@@ -1,3 +1,3 @@
-# Landingpage
-First project of a simple Landing page
+# LANDINGPAGE
 ##
+This is a landing page project about horror stories. A website where only HTML and CSS were used for its development.
