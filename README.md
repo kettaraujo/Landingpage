@@ -4,7 +4,7 @@
 </p>
 :hammer: Funcionalidade do projeto
 
-- `Funcionalidade`: Apresentar página de introdução à histórias.
+- `Funcionalidade`: Apresentar página simples de histórias de terror.
 
 ## ✔️ Tecnologias utilizadas
 
