@@ -3,7 +3,7 @@
 </p>
 Funcionalidade do projeto
 
-- `Funcionalidade`: Apresentar uma página simples de histórias de terror, na qual existe um botão (em desenvolvimento) para navegar através das histórias.
+- `Funcionalidade`: Apresentar uma página simples de histórias de terror, na qual existe um botão para navegar através das histórias.
 
 ## ✔️ Tecnologias utilizadas
 
