@@ -1,7 +1,7 @@
 <h1 align="center">Landing Page</h1>
 <p align="center">:seedling:<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
-Funcionalidade do projeto
+Funcionalidade do projeto:
 
 - `Funcionalidade`: Apresentar uma página simples de histórias de terror, na qual existe um botão para navegar através das histórias.
 
